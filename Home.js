@@ -1,3 +1,3 @@
-function Myfanction(){
-    alert("Sufful");
+function MyFanction(){
+    alert("Success Full");
 }
