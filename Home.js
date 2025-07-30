@@ -1,0 +1,3 @@
+function Myfanction(){
+    alert("Sufful");
+}
