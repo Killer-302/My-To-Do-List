@@ -1,24 +1,28 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="Home.css">
-    <script src="Home.js"></script>
+    <title>My To Do</title>
+     <link rel="stylesheet" href="Home.css">
 </head>
 <body>
-    
-    <form> 
-        <div class="style">
-          <label for="name">Task :</label><br>
-          <input type="text" id="name">
-          <br>
-          <br>
-          <label for="des">Description :</label><br>   
-          <textarea name="message" rows="4" cols="24"></textarea>
+<form>
+        <div class="style"></div>
+        <label for="name">Task :</label><br>
+        <input type="text" id="usernameInput"><br><br>
+
+        <label for="message">Description :</label><br>
+        <textarea id="usernameInput1" id="message" name="message" rows="4" cols="24"></textarea><br><br>
         </div>
-        <button onclick="MyFanction()">Confirm</button>
-    </form>    
+        <div>
+            <div id="messageList"></div>
+            <button id="buttonreset" type="reset">Clear</button>
+            <button id="buttonConfirm" onclick="redirectToAnotherPage()" type="button" onclick="submitAndOpenNewPage()" type="submit" >Submit</button>
+        </div>
+    </form>
+    <script src="Home.js"></script>
+
 </body>
 </html>
